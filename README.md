@@ -23,19 +23,18 @@ MLP has the following features:
 
 *  Consists of two passes
 
-  	(i)Feed Forward pass
-	         (ii)Backward pass
+  	* Feed Forward pass
+	* Backward pass
            
 *  Learning process –backpropagation
 
-*  Computationally efficient method
+Computationally efficient method
 
 ![image 10](https://user-images.githubusercontent.com/112920679/198804559-5b28cbc4-d8f4-4074-804b-2ebc82d9eb4a.jpg)
 
 3 Distinctive Characteristics of MLP:
 
-*  Each neuron in network includes a non-linear activation function
-
+*  Each neuron in network includes a non-linear activation function 
 ![image](https://user-images.githubusercontent.com/112920679/198814300-0e5fccdf-d3ea-4fa0-b053-98ca3a7b0800.png)
 
 *  Contains one or more hidden layers with hidden neurons
@@ -44,55 +43,55 @@ MLP has the following features:
 
 3 Signals involved in MLP are:
 
- Functional Signal
+   * Functional Signal
 
-*input signal
+   * input signal
 
-*propagates forward neuron by neuron thro network and emerges at an output signal
+   * propagates forward neuron by neuron thro network and emerges at an output signal
 
-*F(x,w) at each neuron as it passes
+   * F(x,w) at each neuron as it passes
 
 Error Signal
 
-   *Originates at an output neuron
+   * Originates at an output neuron
    
-   *Propagates backward through the network neuron
+   * Propagates backward through the network neuron
    
-   *Involves error dependent function in one way or the other
+   * Involves error dependent function in one way or the other
    
-Each hidden neuron or output neuron of MLP is designed to perform two computations:
+   * Each hidden neuron or output neuron of MLP is designed to perform two computations:
 
-The computation of the function signal appearing at the output of a neuron which is expressed as a continuous non-linear function of the input signal and synaptic weights associated with that neuron
+       * The computation of the function signal appearing at the output of a neuron which is expressed as a continuous non-linear function of the input signal and synaptic weights associated with that neuron
 
-The computation of an estimate of the gradient vector is needed for the backward pass through the network
+       * The computation of an estimate of the gradient vector is needed for the backward pass through the network
 
 TWO PASSES OF COMPUTATION:
 
-In the forward pass:
+* In the forward pass:
 
-•       Synaptic weights remain unaltered
+     * Synaptic weights remain unaltered
 
-•       Function signal are computed neuron by neuron
+     * Function signal are computed neuron by neuron
 
-•       Function signal of jth neuron is
+     * Function signal of jth neuron is
             ![image](https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png)
             ![image](https://user-images.githubusercontent.com/112920679/198814328-1a69a3cd-7e02-4829-b773-8338ac8dcd35.png)
             ![image](https://user-images.githubusercontent.com/112920679/198814339-9c9e5c30-ac2d-4f50-910c-9732f83cabe4.png)
 
 
 
-If jth neuron is output neuron, the m=mL  and output of j th neuron is
+     * If jth neuron is output neuron, the m=mL  and output of j th neuron is
                ![image](https://user-images.githubusercontent.com/112920679/198814349-a6aee083-d476-41c4-b662-8968b5fc9880.png)
 
-Forward phase begins with in the first hidden layer and end by computing ej(n) in the output layer
+     * Forward phase begins with in the first hidden layer and end by computing ej(n) in the output layer
 ![image](https://user-images.githubusercontent.com/112920679/198814353-276eadb5-116e-4941-b04e-e96befae02ed.png)
 
 
-In the backward pass,
+* In the backward pass,
 
-•       It starts from the output layer by passing error signal towards leftward layer neurons to compute local gradient recursively in each neuron
+     *  It starts from the output layer by passing error signal towards leftward layer neurons to compute local gradient recursively in each neuron
 
-•        it changes the synaptic weight by delta rule
+     * it changes the synaptic weight by delta rule
 
 ![image](https://user-images.githubusercontent.com/112920679/198814362-05a251fd-fceb-43cd-867b-75e6339d870a.png)
 
