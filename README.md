@@ -51,7 +51,7 @@ Computationally efficient method
 
    * F(x,w) at each neuron as it passes
 
-Error Signal
+Error Signal:
 
    * Originates at an output neuron
    
@@ -84,6 +84,7 @@ TWO PASSES OF COMPUTATION:
                ![image](https://user-images.githubusercontent.com/112920679/198814349-a6aee083-d476-41c4-b662-8968b5fc9880.png)
 
      * Forward phase begins with in the first hidden layer and end by computing ej(n) in the output layer
+     
 ![image](https://user-images.githubusercontent.com/112920679/198814353-276eadb5-116e-4941-b04e-e96befae02ed.png)
 
 
@@ -92,13 +93,12 @@ TWO PASSES OF COMPUTATION:
      *  It starts from the output layer by passing error signal towards leftward layer neurons to compute local gradient recursively in each neuron
 
      * it changes the synaptic weight by delta rule
-
 ![image](https://user-images.githubusercontent.com/112920679/198814362-05a251fd-fceb-43cd-867b-75e6339d870a.png)
 
 
 
 ## ALGORITHM:
-
+```
 1.Import the necessary libraries of python.
 
 2. After that, create a list of attribute names in the dataset and use it in a call to the read_csv() function of the pandas library along with the name of the CSV file containing the dataset.
@@ -115,6 +115,7 @@ Normalize our dataset.
 7.In order to get the predicted values we call the predict() function on the testing data set.
 
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
+```
 
 ## PROGRAM 
 ```
