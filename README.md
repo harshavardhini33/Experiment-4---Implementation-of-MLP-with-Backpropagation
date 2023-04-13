@@ -29,7 +29,6 @@ MLP has the following features:
 *  Learning process –backpropagation
 
 Computationally efficient method
-
 ![image 10](https://user-images.githubusercontent.com/112920679/198804559-5b28cbc4-d8f4-4074-804b-2ebc82d9eb4a.jpg)
 
 3 Distinctive Characteristics of MLP:
@@ -74,7 +73,6 @@ TWO PASSES OF COMPUTATION:
      * Function signal are computed neuron by neuron
 
      * Function signal of jth neuron is
-      
           ![image](https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png)
           ![image](https://user-images.githubusercontent.com/112920679/198814328-1a69a3cd-7e02-4829-b773-8338ac8dcd35.png)
           ![image](https://user-images.githubusercontent.com/112920679/198814339-9c9e5c30-ac2d-4f50-910c-9732f83cabe4.png)
@@ -85,7 +83,6 @@ TWO PASSES OF COMPUTATION:
                ![image](https://user-images.githubusercontent.com/112920679/198814349-a6aee083-d476-41c4-b662-8968b5fc9880.png)
 
      * Forward phase begins with in the first hidden layer and end by computing ej(n) in the output layer
-     
 	      ![image](https://user-images.githubusercontent.com/112920679/198814353-276eadb5-116e-4941-b04e-e96befae02ed.png)
 
 
